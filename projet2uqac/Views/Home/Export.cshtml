@@ -1,0 +1,6 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model string;
+<p>@Model</p>
+<button onclick="window.location.href = '@Url.Action("Index","Home")';"></button>
