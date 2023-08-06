@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Mi9TnIOCL2Og2Hpo0FDbfzkyD3U5pt/UZn/pl+UrVOYualx/dmcb9ml5BGm/1HIgm3IIWsbKGxVG9KrpVcXesw==",
+  "dgSpecHash": "x3sxiOaALQWCUxtcGThVFCibU6AGWMp3uFgu3G1FPDGxjmf6K4t5rU0BSwQiRW/DDBMTD9pDbbRsdA42ZIw2FQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nicolascote\\projet2uqac\\projet2uqac\\projet2uqac.csproj",
+  "projectFilePath": "C:\\projet2uqac\\projet2uqac\\projet2uqac.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nicolascote\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\nicolascote\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
