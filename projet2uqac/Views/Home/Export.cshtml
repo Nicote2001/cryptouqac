@@ -2,5 +2,13 @@
     ViewData["Title"] = "Home Page";
 }
 @model string;
-<p>@Model</p>
-<button onclick="window.location.href = '@Url.Action("Index","Home")';"></button>
+<div class="container mt-5">
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Voici votre clé : </h1>
+            <p class="lead">@Model</p>
+            <hr class="my-4">
+            <a class="btn btn-primary btn-lg" href="#" role="button" onclick="window.location.href = '@Url.Action("Index","Home")';">Retour</a>
+        </div>
+    </div>
+</div>

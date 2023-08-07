@@ -9604,19 +9604,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nicolascote\\.nuget\\packages\\": {}
+    "C:\\Users\\nicot\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projet2uqac\\projet2uqac\\projet2uqac.csproj",
+      "projectUniqueName": "C:\\cryptouqac\\projet2uqac\\projet2uqac.csproj",
       "projectName": "projet2uqac",
-      "projectPath": "C:\\projet2uqac\\projet2uqac\\projet2uqac.csproj",
-      "packagesPath": "C:\\Users\\nicolascote\\.nuget\\packages\\",
-      "outputPath": "C:\\projet2uqac\\projet2uqac\\obj\\",
+      "projectPath": "C:\\cryptouqac\\projet2uqac\\projet2uqac.csproj",
+      "packagesPath": "C:\\Users\\nicot\\.nuget\\packages\\",
+      "outputPath": "C:\\cryptouqac\\projet2uqac\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nicolascote\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nicot\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

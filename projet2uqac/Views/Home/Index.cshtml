@@ -2,20 +2,24 @@
     ViewData["Title"] = "Home Page";
 }
 @model List<projet2uqac.Models.Key>;
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-    <button></button>
-</div>
- <form asp-action="GenerateKey" method="get">
-    <button type="submit">Generer mes clées</button>
-   </form>
-<div class="sideList ">
-    @for (int i = 0; i < Model.Count(); i++)
-    {
 
-        <a>@Model[i].name</a> <button onclick="window.location.href = '@Url.Action("Export","Home",new{id=Model[i].id})';">Export</button>
 
-    }
+<button type="submit" class="btn btn-primary btn-lg" onclick="window.location.href = '@Url.Action("GenerateKey","Home")';" display="inline" style="padding-right: 30px;">Generer mes clées</button>
+<button onclick="window.location.href = '@Url.Action("Import","Home")';" class="btn btn-primary btn-lg" display="inline">Importer une clé</button>
+<div class="container">
+    <h1>Mes clés</h1>
+    <div class="row">
+        @for (int i = 0; i < Model.Count(); i++)
+        {
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://t3.ftcdn.net/jpg/02/51/74/82/360_F_251748220_A2cP6VJ19IoXXjWCHL9KY39peKHick1c.jpg" class="card-img-top" alt="Article 1">
+                    <div class="card-body">
+                        <h5 class="card-title">@Model[i].name</h5>
+                        <a href="#" class="btn btn-primary" onclick="window.location.href = '@Url.Action("Export","Home",new{id=Model[i].id})';">Exporter</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
 </div>
-<button onclick="window.location.href = '@Url.Action("Import","Home")';">IMPORT KEY</button>

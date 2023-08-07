@@ -31,7 +31,7 @@ namespace projet2uqac.Controllers
 
             Key key = _keyService.GetKeyById(keyID);
 
-            if ((key.isPrivate))
+            if ((!key.isPrivate))
             {
                 messageResult = "VOICI TON TEXTE : " + _cryptoService.EncryptMessage(message, key);
             }

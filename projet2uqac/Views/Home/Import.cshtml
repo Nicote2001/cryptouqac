@@ -1,14 +1,15 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
-<form asp-action="ImportKey" method="post">
-    <label for="key"></label>
-
-<textarea id="key" name="key" rows="4" cols="50">
-</textarea>
-
-<label for="name">nom de la clé</label>
-<input type="text" id="name" name="name"/>
-<button type="submit">Importer</button>
-</form>
+<div class="container mt-5">
+    <h1>Formulaire d'importation de clé</h1>
+    <form asp-action="ImportKey" method="post">
+        <div class="form-group">
+            <label for="textareaElement">Entrez le code de la clé</label>
+            <textarea class="form-control" id="textareaElement" rows="4" name="key"></textarea>
+            <label for="name">nom de la clé</label>
+            <input type="text" id="name" name="name" />
+        </div>
+        <button type="submit" class="btn btn-primary">Importer</button>
+    </form>
+</div>
